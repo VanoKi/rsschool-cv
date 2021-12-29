@@ -1,1 +1,1 @@
-https://vanoki.github.io/rsschool-cv
+https://VanoKi.github.io/rsschool-cv
