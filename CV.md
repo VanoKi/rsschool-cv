@@ -1,10 +1,10 @@
 ## Curriculum Vitae
 *****
 ## Ivan Kirshchin
-******
+********
 ![photo](Iam.jpg)
-*****
-###FullStack Developer
+*******
+### FullStack Developer
 *******
 ### Contacts:
 * **e-mail:** kirsvano@gmail.com     
