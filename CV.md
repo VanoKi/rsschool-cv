@@ -5,7 +5,7 @@
 * **e-mail:** kirsvano@gmail.com     
 * **Discord:** @VanoHa#0532
 * **GitHub:** [VanoKi](https://github.com/VanoKi) 
-* **CodeWars:** [VanoKi](https://www.codewars.com/users/VanoKi/badges/micro)
+* **CodeWars:** [VanoKi](https://www.codewars.com/users/VanoKi)
 ![codewars](https://www.codewars.com/users/VanoKi/badges/small?theme=light)
 ### About myself:
 *For 11 years I worked as a firefighter. I was involved in rescuing people, cats, dogs and, once,
