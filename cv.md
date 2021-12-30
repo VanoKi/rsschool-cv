@@ -35,7 +35,7 @@ def narcissistic( value ):
 ```
 ### My Education:
 * Belorussian State University, Historical Faculty, 2012-2018
-* [Introdution To Phython](https://training.by/#!/Training/2870?lang=ru), April-June 2021
+* [Introdution To Python](https://training.by/#!/Training/2870?lang=ru), April-June 2021
 
 ### Human Languages:
 * **Belorussian**, **Russian** - Native
