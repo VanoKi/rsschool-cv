@@ -9,14 +9,14 @@
 * ![codewars](https://www.codewars.com/users/VanoKi/badges/small?theme=dark)
 
 ### About myself:
-*For 11 years I worked as a firefighter. I was involved in rescuing people, cats, dogs and, once,
+*For 11 years I worked as a firefighter. I was rescuing people, cats, dogs and, once,
 even ducklings. But over time, I realized that I had reached the limit in my development.
-All these years I have been interested in information technology. And now the time has come to 
-completely switch to a new boundless world in which there are no limits for development. 
+All these years I have been interested in information technology. And now the time has come to
+go to a new boundless world in which there are no limits for development.
 This new field of activity has absorbed me so much that I will not stop on the way to my goal:
-to become a senior Fullstack developer. Discipline is not an empty phrase for me, over the years 
-I have learned to complete the assigned tasks accurately and on time, acquired stress resistance 
-and developed resourcefulness and the ability to think outside the box. And such my qualities as 
+to become a senior Fullstack developer. Discipline is not an empty words for me, over the years
+I have learned to complete the assigned tasks accurately and in time, acquired stress resistance
+and developed resourcefulness and the ability to think outside the box. Such my qualities as
 purposefulness and perseverance will help me in this.*
 
 ### My Skills:
