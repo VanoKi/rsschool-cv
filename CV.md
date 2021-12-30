@@ -24,15 +24,16 @@ purposefulness and perseverance will help me in this.*
 * VSCode, PyCharm, WebStorm
 ### [Code examples:](https://www.codewars.com/users/VanoKi/completed_solutions)
 >Your code must return true or false depending upon whether the 
-> given number is a Narcissistic number in base 10. 
+> given number is a Narcissistic number in base 10.
+
 ```
 def narcissistic( value ):
     return value == sum([(i**len(str(value))) for i in [int(i) for i in str(value)]])
 ```
 ### My Education:
-* Belarusian State University, Historical Faculty, 2012-2018
+* Belorussian State University, Historical Faculty, 2012-2018
 * [Introdution To Phython](https://training.by/#!/Training/2870?lang=ru), April-June 2021
 ### Human Languages:
-* **Belarusian**, **Russian** - Native
+* **Belorussian**, **Russian** - Native
 * **English** - Pre-Intermediate
 * **Polish** -  Elementary
