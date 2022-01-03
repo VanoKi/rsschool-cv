@@ -44,3 +44,17 @@ html {
     padding: 0 20px;
     line-height: 50px;
 }
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
