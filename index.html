@@ -72,8 +72,23 @@
     </ul>
     <h2>
         <a href="https://www.codewars.com/users/VanoKi/completed_solutions" target="_blank">Code Examples</a>:
-
     </h2>
+    <li>
+        Task:
+        <blockquote>
+            Your code must return true or false depending upon whether the
+                given number is a Narcissistic number in base 10.
+    </blockquote>
+    </li>
+    <li>
+        Solution:
+    <pre>
+        <code>
+def narcissistic( value ):
+    return value == sum([(i**len(str(value))) for i in [int(i) for i in str(value)]])
+        </code>
+    </pre>
+    </li>
     <h2>
         My Education:
     </h2>
