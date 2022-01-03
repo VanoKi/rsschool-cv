@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .code_example {
     text-decoration: none;
 }
@@ -27,13 +31,16 @@
     justify-content: center;
     align-items: center;
     font-size: x-large;
+    list-style: none
 }
 
 .nav-item {
     display: inline-block;
-    padding: 10px;
 }
+
 .nav-link {
     text-decoration: none;
     color: black;
+    padding: 0 20px;
+    line-height: 50px;
 }
