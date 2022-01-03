@@ -1,19 +1,34 @@
-.code_example{
+.code_example {
     text-decoration: none;
 }
-.img{
+
+.img {
     transition: 1s;
 }
-.img:hover{
+
+.img:hover {
     transform: scale(2);
 }
-.body{
+
+.body {
     background: #E5DB7A;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
 }
