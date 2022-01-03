@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/duck.ico">-->
+    <link rel="icon" href="./assets/duck.ico">
+    -->
     <meta charset="UTF-8">
     <title>CV</title>
 </head>
@@ -13,15 +14,18 @@
     </h1>
 </header>
 <main>
-    <h2>
-        Ivan Kirshchin <img src="./assets/main2.jpg" width="300" height="400" alt="my photo">
-    </h2>
+    <div>
+        <img src="./assets/main2.jpg" width="300" height="400" alt="my photo">
+    </div>
+    <h1>
+        Ivan Kirshchin
+    </h1>
     <h2>
         Contacts:
     </h2>
     <ul>
         <li>
-            e-mail: <a href="mailto:kirsvano@gmail.com" target="_blank" >kirsvano@gmail.com</a>
+            e-mail: <a href="mailto:kirsvano@gmail.com" target="_blank">kirsvano@gmail.com</a>
         </li>
         <li>
             Discord: VanoHa
@@ -30,7 +34,8 @@
             GitHub: <a href="https://github.com/VanoKi" target="_blank">VanoKi</a>
         </li>
         <li>
-            CodeWars: <a href="https://www.codewars.com/users/VanoKi" target="_blank"><img src="https://www.codewars.com/users/VanoKi/badges/small?theme=dark" alt="banner"></a>
+            CodeWars: <a href="https://www.codewars.com/users/VanoKi" target="_blank"><img
+                src="https://www.codewars.com/users/VanoKi/badges/small?theme=dark" alt="banner"></a>
         </li>
     </ul>
     <h2>
@@ -71,21 +76,21 @@
         </li>
     </ul>
     <h2>
-        <a href="https://www.codewars.com/users/VanoKi/completed" target="_blank">Code Examples</a>:
+        <a class="code_example" href="https://www.codewars.com/users/VanoKi/completed" target="_blank">Code Examples</a>:
     </h2>
     <li>
         Task:
         <blockquote>
             Your code must return true or false depending upon whether the
-                given number is a <a href="https://en.wikipedia.org/wiki/Narcissistic_number" target=_blank>
+            given number is a <a href="https://en.wikipedia.org/wiki/Narcissistic_number" target=_blank>
             Narcissistic number
         </a>
-                                      in base 10.
-    </blockquote>
+            in base 10.
+        </blockquote>
     </li>
     <li>
         Solution:
-    <pre>
+        <pre>
         <code>
 def narcissistic( value ):
     return value == sum([(i**len(str(value))) for i in [int(i) for i in str(value)]])
