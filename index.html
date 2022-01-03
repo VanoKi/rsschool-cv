@@ -3,15 +3,14 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/duck.ico">
-    -->
     <meta charset="UTF-8">
     <title>CV</title>
 </head>
 <body class="body">
 <header>
     <div class="container">
-        <nav class="nav">
-            <ul class="nav-list"> Navigation:
+        <nav>
+            <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#summary" class="nav-link">About Myself</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">My Skills</a></li>
@@ -34,18 +33,18 @@
         </section>
         <section id="contacts">
             <h2>Contacts:</h2>
-            <ul>
+            <ul class="text">
                 <li>e-mail: <a href="mailto:kirsvano@gmail.com" target="_blank">kirsvano@gmail.com</a></li>
                 <li>Discord: VanoHa</li>
                 <li>GitHub: <a href="https://github.com/VanoKi" target="_blank">VanoKi</a></li>
                 <li>CodeWars: <a href="https://www.codewars.com/users/VanoKi" target="_blank"><img
-                        src="https://www.codewars.com/users/VanoKi/badges/small?theme=dark" alt="banner"></a></li>
+                        src="https://www.codewars.com/users/VanoKi/badges/small?theme=light" alt="banner"></a></li>
             </ul>
         </section>
         <section class="section" id="summary">
             <h2>About Myself:</h2>
             <div>
-                <p>For 11 years I worked as a firefighter.
+                <p class="text"><i>For 11 years I worked as a firefighter.
                     I was rescuing people, cats, dogs and, once, even ducklings.
                     But over time, I realized that I had reached the limit in my development.
                     All these years I have been interested in information technology.
@@ -56,13 +55,13 @@
                     words for me, over the years I have learned to complete the assigned
                     tasks accurately and in time, acquired stress resistance and developed
                     resourcefulness and the ability to think outside the box. Such my
-                    qualities as purposefulness and perseverance will help me in this.
+                    qualities as purposefulness and perseverance will help me in this.</i>
                 </p>
             </div>
         </section>
         <section class="section" id="skills">
             <h2>My Skills:</h2>
-            <ul>
+            <ul class="text">
                 <li>HTML5, CSS3</li>
                 <li><span>JavaScript</span>,<a href="https://www.codewars.com/users/VanoKi/completed_solutions"
                                                target="_blank">Python</a></li>
@@ -73,21 +72,21 @@
         <section class="section" id="code">
             <h2><a class="code_example" href="https://www.codewars.com/users/VanoKi/completed" target="_blank">Code
                 Examples</a>:</h2>
-            <blockquote>
+            <blockquote class="text">
                 Your code must return true or false depending upon whether the
                 given number is a <a href="https://en.wikipedia.org/wiki/Narcissistic_number" target=_blank>
                 Narcissistic number
             </a>
                 in base 10.
             </blockquote>
-            <pre><code>
+            <pre><code class="text">
         def narcissistic(value):
             return value == sum([(i**len(str(value))) for i in [int(i) for i in str(value)]])
         </code></pre>
         </section>
         <section class="section" id="edu">
             <h2>My Education:</h2>
-            <ul>
+            <ul class="text">
                 <li>Belorussian State University, Historical Faculty, 2012-2018</li>
                 <li><a href="https://training.by/#!/Training/2870?lang=ru" target="_blank">
                     Introdution To Python, April-June 2021</a></li>
@@ -95,11 +94,11 @@
         </section>
         <section class="section" id="project">
             <h2>My Projects:</h2>
-            <li> link must be here</li>
+            <li class="text"> link must be here</li>
         </section>
         <section class="section" id="lang">
             <h2>Human Languages:</h2>
-            <ul>
+            <ul class="text">
                 <li>Belorussian, Russian - Native</li>
                 <li>English - Pre-Intermediate</li>
                 <li>Polish - Elementary</li>
@@ -108,10 +107,11 @@
     </div>
 </main>
 <footer>
-    <div class="container">
-
-    </div>
-
+    <ul class="footer">
+        <li class="footer-item"><a href="https://github.com/VanoKi" class="footer-link" target="_blank">Github</a></li>
+        <li class="footer-item">2022</li>
+        <li class="footer-item"><a href="https://rs.school/js/" class="footer-link" target="_blank"><img src="./assets/rs_school_js.svg" width="100" height="100"></a> </li>
+    </ul>
 </footer>
 </body>
 </html>

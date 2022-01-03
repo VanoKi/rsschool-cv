@@ -51,10 +51,36 @@ html {
 }
 
 .section {
-    width: 50%;
+    width: 60%;
 }
 @media (max-width: 768px) {
     .section {
         width: 100%;
     }
+}
+*{
+    text-decoration: none;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    list-style: none
+}
+.footer-item {
+    display: inline-block;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    line-height: 50px;
 }
