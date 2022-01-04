@@ -47,6 +47,7 @@ html {
 }
 
 .main-container {
+    padding: 10px 10px 10px 550px;
     display: flex;
     flex-wrap: wrap;
 }
