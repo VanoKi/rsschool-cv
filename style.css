@@ -27,6 +27,7 @@ html {
 }
 
 .nav-list {
+    background: #E9F0F6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,12 +69,14 @@ html {
     line-height: 1.5;
 }
 .footer {
+    background: #594926;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: x-large;
     list-style: none
 }
+
 .footer-item {
     display: inline-block;
 }
