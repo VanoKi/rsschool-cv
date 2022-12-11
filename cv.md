@@ -40,4 +40,4 @@ def narcissistic( value ):
 ### Human Languages:
 * **Belarusian**, **Russian** - Native
 * **English** - Pre-Intermediate
-* **Polish** -  Elementary
+* **Polish** -  Pre-Intermediate
