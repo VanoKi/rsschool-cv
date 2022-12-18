@@ -2,6 +2,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth; 
+}
 body{
   display: flex;
   flex-direction: column;
@@ -11,10 +14,18 @@ body{
   padding: 0;
 }
 header{
-  background: blue;
+  width: 1024px;
 }
-footer{
-  background-color: brown;
+.nav-list{
+  display: flex;
+  /*align-items: center;*/
+  list-style: none;
+  /*padding: 0 20px;
+  line-height: 50px;*/
+}
+.nav-link{
+  padding: 0 20px;
+  line-height: 50px;
 }
 .container {
   background-color: lightgrey;
