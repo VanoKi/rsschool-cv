@@ -69,3 +69,15 @@ img {
   width: 1024px;
   background-color: #D8D8DC;
 }
+.left{
+  align-items: center
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5
+}
+.small_container{
+  width: 200px;
+}
