@@ -26,3 +26,8 @@ footer{
 .section {
   width: 50%;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
