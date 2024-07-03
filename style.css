@@ -70,3 +70,16 @@ header .wrap{
 #about, #portfoli {
   background: #F6F6F6;
 }
+
+#hero .wrap {
+  width: 960px;
+  justify-content: start;
+}
+
+.hero_title_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  width: 576px;
+}
