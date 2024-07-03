@@ -56,6 +56,10 @@ p {
   color: var(--black);
 }
 
+section {
+  width: 100%;
+}
+
 .wrap {
   margin: 0 auto;
   max-width: 960px;
