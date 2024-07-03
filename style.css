@@ -4,6 +4,10 @@
   --second-family: "Gilroy-Medium", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -111,6 +115,7 @@ header .wrap{
   max-width: 960px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 110px;
 }
 
