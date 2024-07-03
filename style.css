@@ -63,6 +63,10 @@ main, footer .wrap {
   align-items: center;
 }
 
+header .wrap{
+  border-bottom: 1px solid #828282;
+}
+
 #about, #portfoli {
   background: #F6F6F6;
 }
