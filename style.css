@@ -4,7 +4,7 @@
   --second-family: "Gilroy-Medium", sans-serif;
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
