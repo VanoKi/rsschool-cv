@@ -15,6 +15,7 @@
           <li><a href="">Home</a></li>
           <li><a href="#hero">About me</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#code_example">Code</a></li>
           <li><a href="#portfoloio">Portfoloio</a></li>
           <li><a href="#contacts">Contacts</a></li>
         </ul>
@@ -155,6 +156,29 @@
             </div>
           </li>
         </ul>
+      </div>
+    </section>
+    <section id="code_example">
+      <div class="wrap">
+        <h2>Code example</h2>
+        <p>This is an example of my code that is used on this page</p>
+        <pre>
+          <code>
+            const container = document.querySelector('.container')
+            const items = container.querySelectorAll('.portfolio_img')
+            items.forEach(item => {
+              item.addEventListener('click', (event) => {
+                const str = event.target.src
+                findItems(str.slice(str.indexOf('assets')));
+                body.classList.add('no-scroll')
+              })
+            })
+
+            if (currInd >= data.length){
+              moreBtn.style.display = 'none'
+            }
+          </code>
+        </pre>
       </div>
     </section>
     <section id="portfolio">
