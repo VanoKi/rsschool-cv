@@ -123,3 +123,11 @@ header .wrap{
   gap: 110px;
 }
 
+.star {
+  font-size: 20px;
+  color: #ddd; /* цвет для неактивных звезд */
+}
+
+.star.filled {
+  color: #000; /* цвет для активных звезд */
+}
