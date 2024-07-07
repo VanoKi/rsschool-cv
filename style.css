@@ -8,6 +8,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,6 +23,10 @@ a {
   font-weight: 400;
   font-size: 18px;
   color: #828282;
+}
+
+a:hover{
+  color: var(--black);
 }
 
 ul {
@@ -162,7 +170,7 @@ header .wrap{
   /* height: 450px; */
   height: auto;
   margin-bottom: 30px;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   cursor: pointer;
   transition: filter .4s ease;
   filter: brightness(90%);
@@ -189,20 +197,21 @@ header .wrap{
 
 .item h3 a {
   display: block;
-  border: 1px solid #E4E4E7;
+  /* border: 1px solid #E4E4E7; */
   padding: 5px;
 }
 
-h3 a:hover {
+/* h3 a:hover {
   border: 1px solid #f1f1f3;
   border-radius: 8px;
   background-color: #f1f1f3;
-}
+} */
 
 .btn_more {
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 15px;
-  border: 1px solid #E4E4E7;
+  /* border: 1px solid #E4E4E7; */
   cursor: pointer;
 }
 
@@ -212,11 +221,11 @@ h3 a:hover {
   font-size: 22px;
 }
 
-.btn_more:hover {
+/* .btn_more:hover {
   border: 1px solid #f1f1f3;
   border-radius: 100px;
   background-color: #f1f1f3;
-}
+} */
 
 /*portfolio end*/
 
@@ -271,7 +280,8 @@ h3 a:hover {
 .pop-up__image-container {
   overflow: auto;
   height: 55%;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  margin: 0 auto 40px auto;
   border-radius: 15px;
 }
 
@@ -286,6 +296,7 @@ h3 a:hover {
 }
 
 .back {
+  margin: 0 auto;
   width: 430px;
   height: 80px;
   background: #f1f1f1;
