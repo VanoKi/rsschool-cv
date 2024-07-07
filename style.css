@@ -317,3 +317,7 @@ header .wrap{
 }
 
 /*pop-up end*/
+
+#contacts ul {
+  gap: 60px;
+}
