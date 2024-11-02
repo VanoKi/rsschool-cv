@@ -34,10 +34,10 @@ def narcissistic( value ):
     return value == sum([(i**len(str(value))) for i in [int(i) for i in str(value)]])
 ```
 ### My Education:
-* Belorussian State University, Historical Faculty, 2012-2018
+* Belarusian State University, Historical Faculty, 2012-2018
 * [Introdution To Python](https://training.by/#!/Training/2870?lang=ru), April-June 2021
 
 ### Human Languages:
-* **Belorussian**, **Russian** - Native
+* **Belarusian**, **Russian** - Native
 * **English** - Pre-Intermediate
-* **Polish** -  Elementary
+* **Polish** -  Pre-Intermediate
